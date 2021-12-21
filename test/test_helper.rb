@@ -31,11 +31,11 @@ module AuthenticatioHelpers
   def setup
     login_as users(:one)
   end
-
+end
   class ActionDispatch::IntegrationTest
-    include AuthenticationHelpers
+    include AuthenticatioHelpers
   end
 
   class ActionDispatch::IntegrationTest
-    include AuthenticationHelpers
+    include AuthenticatioHelpers
   end
